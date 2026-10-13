@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>【會員專屬】十月新片搶先報，涼森玲夢這部先看</title>
+  <style>
+    :root { --bg:#0b0b0d; --card:#16161a; --line:#2a2a30; --red:#e50914; --text:#f4f4f5; --muted:#a1a1aa; }
+    body { margin:0; background:#0b0b0d; color:var(--text); font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",Arial,sans-serif; }
+    .email { width:100%; max-width:600px; margin:0 auto; background:var(--bg); overflow:hidden; }
+    img { border:0; display:block; max-width:100%; }
+    a { color:inherit; text-decoration:none; }
+    .pad { padding:0 24px; }
+    .logo-bar { padding:16px 24px 14px; border-bottom:1px solid var(--line); display:flex; align-items:center; justify-content:space-between; }
+    .logo-bar img { height:28px; width:auto; }
+    .issue { font-size:11px; color:var(--muted); letter-spacing:.12em; }
+    .hero { padding:22px 24px 8px; }
+    .hero-wrap { display:grid; grid-template-columns: 1fr 168px; gap:16px; align-items:center; }
+    .hero-poster { background:#111; border-radius:6px; overflow:hidden; border:1px solid var(--line); }
+    .hero-poster img { width:100%; height:auto; }
+    .pill { display:inline-block; background:var(--red); color:#fff; font-size:10px; font-weight:700; letter-spacing:.14em; padding:4px 8px; border-radius:2px; }
+    .hero h1 { margin:10px 0 8px; font-size:22px; line-height:1.3; font-weight:800; }
+    .hero p { margin:0 0 14px; color:#d4d4d8; font-size:13px; line-height:1.7; }
+    .btn { display:inline-block; background:var(--red); color:#fff !important; font-weight:700; font-size:14px; padding:11px 18px; border-radius:4px; }
+    h2 { margin:26px 0 6px; font-size:16px; }
+    .sub { color:var(--muted); font-size:12px; margin:0 0 14px; }
+    .grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:6px; overflow:hidden; }
+    .poster { background:#0e0e10; padding:8px 8px 0; }
+    .poster img { width:100%; height:auto; border-radius:3px; }
+    .card .info { padding:10px 10px 12px; }
+    .card h3 { margin:0 0 6px; font-size:13px; line-height:1.4; }
+    .card .blurb { color:#d4d4d8; font-size:12px; line-height:1.6; margin:0 0 6px; }
+    .card .meta-line { color:var(--muted); font-size:11px; }
+    .rank { display:flex; gap:12px; padding:12px 0; border-bottom:1px solid var(--line); align-items:flex-start; }
+    .rank:last-child { border-bottom:0; }
+    .rank .jacket { width:84px; flex-shrink:0; background:#0e0e10; border-radius:3px; overflow:hidden; }
+    .rank .jacket img { width:84px; height:auto; }
+    .no { width:22px; height:22px; border-radius:4px; background:#2a2a30; display:inline-flex; align-items:center; justify-content:center; font-weight:800; color:#fff; font-size:11px; margin-bottom:6px; }
+    .no.top { background:var(--red); }
+    .rank h3 { margin:0 0 6px; font-size:13.5px; line-height:1.4; }
+    .rank .blurb { color:#d4d4d8; font-size:12px; line-height:1.6; margin:0 0 4px; }
+    .rank .meta-line { color:var(--muted); font-size:11px; }
+    .actresses { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; text-align:center; }
+    .actresses img { width:100%; aspect-ratio:1; object-fit:cover; object-position:center 15%; border-radius:8px; border:1px solid var(--line); background:#1a1a1e; }
+    .actresses span { display:block; margin-top:6px; font-size:11px; color:#d4d4d8; }
+    .actresses small { display:block; color:#71717a; font-size:10px; margin-top:2px; }
+    .genres { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:8px; }
+    .chip { border:1px solid #3f3f46; border-radius:999px; padding:7px 12px; font-size:12px; color:#e4e4e7; background:#121214; }
+    .cta-block { margin:28px 24px; background:linear-gradient(135deg,#2a0c12,#16060a); border:1px solid #4a1520; border-radius:8px; padding:22px 20px; text-align:center; }
+    .cta-block h2 { margin:0 0 6px; }
+    .cta-block p { color:#d4d4d8; font-size:13px; margin:0 0 14px; }
+    .event { margin:18px 0 4px; padding:16px 0 8px; border-top:1px solid var(--line); }
+    .event-head { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:8px; }
+    .event-head h2 { margin:0; font-size:15px; line-height:1.35; }
+    .event-actions { display:flex; gap:8px; flex-shrink:0; }
+    .btn-sm { display:inline-block; background:var(--red); color:#fff !important; font-weight:700; font-size:12px; padding:8px 12px; border-radius:6px; }
+    .btn-ghost { display:inline-block; border:1px solid #3f3f46; color:#e4e4e7 !important; font-size:12px; padding:7px 10px; border-radius:6px; }
+    .event p { margin:0 0 12px; color:#d4d4d8; font-size:12px; line-height:1.6; }
+    .rail { display:flex; gap:10px; overflow-x:auto; padding-bottom:8px; }
+    .rail a { flex:0 0 148px; }
+    .rail img { width:148px; height:auto; border-radius:6px; border:1px solid var(--line); background:#111; }
+    .score { margin: 22px 0 8px; text-align: center; }
+    .score a { display: block; }
+    .score img { width: 100%; max-width: 360px; height: auto; border-radius: 8px; margin: 0 auto 12px; border: 1px solid #3a2a12; }
+    @media (max-width:520px){ .hero-wrap { grid-template-columns:1fr 120px; } .hero h1 { font-size:18px; } }
+  </style>
+</head>
+<body>
+  <div class="email">
+      <div class="logo-bar">
+        <img src="images/logo.svg" alt="XCITY">
+        <div class="issue">2026.10　VOL.10</div>
+      </div>
+      <div class="hero">
+        <div class="hero-wrap">
+          <div>
+            <span class="pill">會員專屬</span>
+            <h1>十月新片搶先報</h1>
+            <p>涼森玲夢新作已上架。週六清晨就開始，會員現在就能看。</p>
+            <a class="btn" href="https://tc.xcity.jp/avod/detail?id=208579">馬上觀看</a>
+          </div>
+          <a class="hero-poster" href="https://tc.xcity.jp/avod/detail?id=208579">
+            <img src="images/hero.jpg" alt="涼森玲夢完整封面">
+          </a>
+        </div>
+      </div>
+      <div class="pad">
+        <div class="event">
+          <div class="event-head">
+            <h2>本週活動｜百永紗里奈 10/24–25 台北見</h2>
+            <div class="event-actions">
+              <a class="btn-sm" href="https://ticket.xcity.jp/maisonx/maisonx-vol2">立即購票</a>
+              <a class="btn-ghost" href="https://tc.xcity.jp/idol/detail/11892">檢視全部</a>
+            </div>
+          </div>
+          <p>攝影會、見面會、慶功晚餐。名額有限，先看代表作再搶票。</p>
+          <div class="rail">
+            <a href="https://tc.xcity.jp/avod/detail?id=197777"><img src="images/sarina1.jpg" alt="無懈可擊的人氣單體女優 百永紗里奈240分鐘"></a>
+            <a href="https://tc.xcity.jp/avod/detail?id=199648"><img src="images/sarina2.jpg" alt="衝進妳家蹂躪小穴！百永紗里奈的即吹即刻插入漫遊記"></a>
+            <a href="https://tc.xcity.jp/avod/detail?id=199279"><img src="images/sarina3.jpg" alt="驚悚旋轉器引發大量潮吹 百永紗里奈"></a>
+            <a href="https://tc.xcity.jp/avod/detail?id=189347"><img src="images/sarina4.jpg" alt="請讓我見識AV女優的真實性愛 百永紗里奈"></a>
+          </div>
+        </div>
+        <h2>本月必看 6 部</h2>
+        <p class="sub">新上架，登入就能播。</p>
+        <div class="grid">
+          <a class="card" href="https://tc.xcity.jp/avod/detail?id=208579">
+            <div class="poster"><img src="images/hero.jpg" alt="涼森玲夢"></div>
+            <div class="info">
+              <h3>週六清晨就開幹　涼森玲夢</h3>
+              <p class="blurb">晨勃從醒來就開始，週六清晨停不下來。</p>
+              <div class="meta-line">Prestige</div>
+            </div>
+          </a>
+          <a class="card" href="https://tc.xcity.jp/avod/detail?id=206342">
+            <div class="poster"><img src="images/pick2.jpg" alt="玉井晴香"></div>
+            <div class="info">
+              <h3>這輩子第一次喝精液　玉井晴香</h3>
+              <p class="blurb">敏感媽媽跟年下約會，連丈夫都拋在腦後。</p>
+              <div class="meta-line">SOD</div>
+            </div>
+          </a>
+          <a class="card" href="https://tc.xcity.jp/avod/detail?id=207134">
+            <div class="poster"><img src="images/pick3.jpg" alt="黑川菫"></div>
+            <div class="info">
+              <h3>激烈交合　黑川菫</h3>
+              <p class="blurb">順應本能，全心渴求的真實中出。</p>
+              <div class="meta-line">MAX-A</div>
+            </div>
+          </a>
+          <a class="card" href="https://tc.xcity.jp/avod/detail?id=205813">
+            <div class="poster"><img src="images/pick4.jpg" alt="朝日奈肖"></div>
+            <div class="info">
+              <h3>備孕妻子出道　朝日奈肖</h3>
+              <p class="blurb">想要孩子，也想被渴求。F罩杯人妻初拍。</p>
+              <div class="meta-line">SOD</div>
+            </div>
+          </a>
+          <a class="card" href="https://tc.xcity.jp/avod/detail?id=208114">
+            <div class="poster"><img src="images/pick5.jpg" alt="紗恵"></div>
+            <div class="info">
+              <h3>初妻　單簧管講師　紗恵</h3>
+              <p class="blurb">32歲人妻講師，憑本能奏出第一場。</p>
+              <div class="meta-line">KANBi</div>
+            </div>
+          </a>
+          <a class="card" href="https://tc.xcity.jp/avod/detail?id=207592">
+            <div class="poster"><img src="images/pick6.jpg" alt="湘南比基尼辣妹"></div>
+            <div class="info">
+              <h3>湘南比基尼　瞞著男友中出</h3>
+              <p class="blurb">戀人就在眼前，還是無套破處中出。</p>
+              <div class="meta-line">赤面女子</div>
+            </div>
+          </a>
+        </div>
+        <div class="score">
+          <h2>紳士賽季正式啟動</h2>
+          <p class="sub">會員積分可以抽獎。點數越多，中獎機會越高。</p>
+          <a href="https://platinum-xcity.github.io/xcity-game/"><img src="images/score-portrait.jpg" alt="XCITY 紳士賽季 正式啟動"></a>
+          <p class="blurb" style="color:#d4d4d8;font-size:12px;line-height:1.6;margin:0 0 12px;">全台唯一紳士福利解鎖。日本來回機票、女優一對一互動、貼身物品。賽季 2026.09.01–12.31，越早累積積分，抽到的機會越高。</p>
+          <a class="btn" href="https://platinum-xcity.github.io/xcity-game/">查看抽獎說明</a>
+        </div>
+        <h2>這週最紅的 4 位</h2>
+        <p class="sub">點名字，進她的系列一次看完。</p>
+        <div class="actresses">
+          <a href="https://tc.xcity.jp/idol/detail/18282">
+            <img src="images/act1.jpg" alt="八掛海"><span>八掛海</span><small>日榜 #1</small>
+          </a>
+          <a href="https://tc.xcity.jp/idol/detail/21377">
+            <img src="images/act2.jpg" alt="美咲音"><span>美咲音</span><small>日榜 #2</small>
+          </a>
+          <a href="https://tc.xcity.jp/idol/detail/20818">
+            <img src="images/act3.jpg" alt="柴崎春"><span>柴崎春</span><small>日榜 #3</small>
+          </a>
+          <a href="https://tc.xcity.jp/idol/detail/17589">
+            <img src="images/act4.jpg" alt="夏目響"><span>夏目響</span><small>日榜 #4</small>
+          </a>
+        </div>
+        <h2>想看哪種，直接點</h2>
+        <div class="genres">
+          <a class="chip" href="https://tc.xcity.jp/main">人妻・熟女</a>
+          <a class="chip" href="https://tc.xcity.jp/main">素人企劃</a>
+          <a class="chip" href="https://tc.xcity.jp/main">中出</a>
+          <a class="chip" href="https://tc.xcity.jp/main">NTR / 背德</a>
+          <a class="chip" href="https://platinum-xcity.github.io/xcity-game/">紳士賽季抽獎</a>
+        </div>
+      </div>
+      <div class="cta-block">
+        <h2>十月片庫已更新</h2>
+        <p>會員資格還在。這封信裡的片，登入就能看。</p>
+        <a class="btn" href="https://tc.xcity.jp/main">登入開始看</a>
+      </div>
+      <div class="foot">
+        本郵件僅發送給 XCITY 會員。封面為官網完整包裝圖，未裁切。<br>
+        這是成人內容通知信，收件人需年滿 18 歲。<br>
+        © 2026 XCITY　·　隱私權政策　·　取消訂閱月刊
+      </div>
+    </div>
+</body>
+</html>
